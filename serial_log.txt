@@ -1,0 +1,578 @@
+
+Received: AT+CREG?
+Received: +CREG: 0,5
+Received: 
+Received: OK
+Received: AT+COPS=1,2,"40002"
+Received: OK
+Received: AT+COPS=1,2,"40002"
+Received: OK
+Received: AT+COPS=1,2,"40002"
+Received: OK
+Received: AT+CREG?
+Received: +CREG: 0,5
+Received: 
+Received: OK
+Received: AT+CREG?
+Received: +CREG: 0,5
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 103
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 104
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 105
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 106
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 107
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 108
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 109
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 110
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 111
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 112
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 113
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 114
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 115
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 116
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",27
+Sent: AT+CMGR=27
+Received: AT+CMGR=27
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,15:39:06+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 117
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 118
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",28
+Sent: AT+CMGR=28
+Received: AT+CMGR=28
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,15:41:43+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 119
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 120
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",29
+Sent: AT+CMGR=29
+Received: AT+CMGR=29
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,15:43:06+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 121
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 122
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",30
+Sent: AT+CMGR=30
+Received: AT+CMGR=30
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,15:44:56+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+COPS=1,2,"40002"
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 124
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",31
+Sent: AT+CMGR=31
+Received: AT+CMGR=31
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,16:19:45+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 125
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 126
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 127
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",32
+Sent: AT+CMGR=32
+Received: AT+CMGR=32
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,16:31:50+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 128
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",33
+Sent: AT+CMGR=33
+Received: AT+CMGR=33
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,16:33:47+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 129
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",34
+Sent: AT+CMGR=34
+Received: AT+CMGR=34
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,16:36:55+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-4.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 130
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",35
+Sent: AT+CMGR=35
+Received: AT+CMGR=35
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,16:42:04+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-2.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 131
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 132
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",36
+Sent: AT+CMGR=36
+Received: AT+CMGR=36
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,16:51:43+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 133
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 134
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",37
+Sent: AT+CMGR=37
+Received: AT+CMGR=37
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:01:30+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 135
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",38
+Sent: AT+CMGR=38
+Received: AT+CMGR=38
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:04:54+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 136
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 137
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",39
+Received: AT+CMGR=39
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:14:42+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 138
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 139
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",40
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 140
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",41
+Sent: AT+CMGR=41
+Received: AT+CMGR=41
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:21:59+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 141
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 142
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",42
+Sent: AT+CMGR=42
+Received: AT+CMGR=42
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:23:52+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 143
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 144
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 145
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",43
+Sent: AT+CMGR=43
+Received: AT+CMGR=43
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:25:45+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 146
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 147
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 148
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",44
+Sent: AT+CMGR=44
+Received: AT+CMGR=44
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:30:46+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-3.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 149
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",45
+Sent: AT+CMGR=45
+Received: AT+CMGR=45
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:32:35+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.0 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 150
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994519894113"
+Received: > STATUS
+Received: 
+Received: +CMGS: 151
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 152
+Received: 
+Received: OK
+Received: 
+Received: +CMTI: "ME",46
+Sent: AT+CMGR=46
+Received: AT+CMGR=46
+Received: +CMGR: "REC UNREAD","+994703066224","","25/08/17,17:35:13+16"
+Received: Station 1 status: voltage-5.46 Volts. Balance-5.10 Azn. Water used-N/A L. Temp: 3.0. OK.
+Received: 
+Received: OK
+Received: AT+CMGF=1
+Received: OK
+Received: AT+CMGS="+994703066224"
+Received: > STATUS
+Received: 
+Received: +CMGS: 155
+Received: 
+Received: OK

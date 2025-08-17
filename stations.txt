@@ -1,0 +1,12 @@
+[
+    {
+        "station": "Station 1",
+        "location": "Baku",
+        "phone": "+994703066224"
+    },
+    {
+        "station": "Station 2",
+        "location": "Sumqayit",
+        "phone": "+994519894113"
+    }
+]
