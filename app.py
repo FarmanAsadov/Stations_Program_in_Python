@@ -475,3 +475,17 @@
 
 # root.mainloop()
 
+
+import serial
+
+PORT = "COM3"   # Öz COM portunu yaz
+BAUD = 9600
+
+ser = serial.Serial(PORT, BAUD, timeout=1)
+print(f"🔌 Serial port açıldı: {PORT}")
+
+while True:
+    if ser.in_waiting:  # buffer-də məlumat var
+        line = ser.readline().decode(errors="ignore").strip()
+        if line:
+            print("📥 Gələn:", line)
