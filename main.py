@@ -119,78 +119,7 @@ def send_command(cmd):
     else:
         messagebox.showwarning("Diqqət", "Serial port qoşulu deyil!")
 
-
-# --- Serial oxuma funksiyası ---
-# def read_serial():
-#     global reading
-#     capturing_sms = False
-#     current_number = None
-#     sms_lines = []
-
-#     while reading:
-#         try:
-#             if ser is None or not ser.is_open:
-#                 time.sleep(1)
-#                 continue
-
-#             line = ser.readline()
-#             if not line:
-#                 continue
-
-#             line_str = line.decode("utf-8", errors="replace").strip()
-#             if not line_str:
-#                 continue
-
-#             print(">>", line_str)
-
-#             # Yeni SMS notification
-#             if line_str.startswith("+CMT:"):
-#                 # Nömrəni çıxar
-#                 num_match = re.search(r'"\+?(\d+)"', line_str)
-#                 if num_match:
-#                     current_number = "+" + num_match.group(1)
-#                     capturing_sms = True
-#                     sms_lines = []
-#                     print(f"📥 Yeni SMS nömrədən: {current_number}")
-#                 continue
-
-#             # SMS mətni oxunur
-#             if capturing_sms:
-#                 print(f"📨 SMS mətni: {line_str}")
-#                 print(f"📨 SMS_lines: {sms_lines}")
-#                 sms_lines.append(line_str)
-#                 # Əgər boş line və ya +CMT sətiri gəlirsə SMS bitir
-#                 if line_str:
-                    
-#                     if current_number:
-#                         msg = " ".join(sms_lines).strip()
-#                         print(f"📨 Cavab gəldi: {msg}")
-#                         # UI-də göstər
-#                         root.after(0, lambda m=msg, n=current_number: show_status(m, n))
-#                         # Log fayla yaz
-#                         stations = load_stations()
-#                         for station in stations:
-#                             if station["phone"].endswith(current_number[-9:]):
-#                                 log_status(station["station"], current_number, msg)
-#                                 break
-#                     # Yeni SMS üçün reset
-#                     sms_lines = []
-#                     capturing_sms = line_str.startswith("+CMT:")
-#                     if capturing_sms:
-#                         num_match = re.search(r'"\+?(\d+)"', line_str)
-#                         if num_match:
-#                             current_number = "+" + num_match.group(1)
-#                             print(f"📥 Yeni SMS nömrədən: {current_number}")
-#                     else:
-#                         current_number = None
-#                     continue
-
-#                 # SMS mətni toplama
-#                 sms_lines.append(line_str)
-
-#         except Exception as e:
-#             print("Oxuma xətası:", e)
-#             time.sleep(1)
+    
 
 def read_serial():
     global reading
